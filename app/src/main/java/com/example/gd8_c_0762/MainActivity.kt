@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-s
+
         Configuration.getInstance().load(this, PreferenceManager.getDefaultSharedPreferences(this))
 
         val geoPoint = GeoPoint(-7.78165, 110.414497)
